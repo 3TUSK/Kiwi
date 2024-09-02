@@ -145,7 +145,7 @@ shadowJar {
     relocate "org.yaml.snakeyaml", "${project.group}.shadowed.org.yaml.snakeyaml"
     relocate "com.ezylang.evalex", "${project.group}.shadowed.com.ezylang.evalex"
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier.set('')
+    //archiveClassifier.set('')
 }
 
 task APJar(type: Jar) {
